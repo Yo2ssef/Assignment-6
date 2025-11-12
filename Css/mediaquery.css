@@ -59,12 +59,14 @@
   html {
     font-size: 13px;
   }
-
   .header-img img {
     height: 23.125rem;
     width: 70%;
     object-position: center;
     object-fit: cover;
+  }
+  header {
+    padding-block: 25% 20%;
   }
   .a-p {
     top: 90%;
@@ -80,11 +82,11 @@
   }
   .carousel-control-prev {
     left: 32%;
-    top: 94%;
+    top: 93%;
   }
   .carousel-control-next {
-    right: 53%;
-    top: 94%;
+    right: 54%;
+    top: 93%;
   }
   .cards {
     width: 49%;
@@ -96,10 +98,10 @@
     gap: 0.625rem;
   }
   .animation-1 img {
-    width: 6%;
+    width: 7%;
   }
   .animation-2 img {
-    width: 6%;
+    width: 7%;
   }
   .fs-12px {
     font-size: 0.6875rem;
@@ -107,6 +109,12 @@
   }
   .fs-14px {
     font-size: 0.8125rem;
+  }
+  textarea{
+    height: 12vh;
+  }
+  .shadow-animation{
+    height: 95%;
   }
 }
 /* =================================================== */
@@ -158,6 +166,12 @@
     position: relative;
     width: 100%;
   }
+  textarea{
+    height: 15vh;
+  }
+  .shadow-animation{
+    height: 95%;
+  }
 }
 
 /* ================== SM ================== */
@@ -167,7 +181,7 @@
   }
 
   .header-img img {
-    height: 12.5rem;
+    height: 16.875rem;
     width: 100%;
     object-position: center;
     object-fit: cover;
@@ -209,9 +223,15 @@
     gap: 0.625rem;
   }
   .animation-1 img {
-    width: 10%;
+    width: 12%;
   }
   .animation-2 img {
-    width: 10%;
+    width: 12%;
+  }
+  textarea{
+    height: 20vh;
+  }
+  .shadow-animation{
+    height: 95%;
   }
 }
